@@ -1,3 +1,5 @@
+/* eslint-disable strict */
+
 (function(dust) {
   'use strict';
 
@@ -20,4 +22,4 @@
 
     return chunk.write(string.substring(start, end));
   };
-})(typeof exports !== 'undefined' ? (module.exports = require('dustjs-linkedin')) : dust);
+})(typeof exports !== 'undefined' ? (module.exports = require('dustjs-linkedin')) : dust); // eslint-disable-line no-undef
