@@ -4,7 +4,7 @@
   "description": "A dustjs helper to get the substring of a string",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "mocha"
   },
   "keywords": [
     "dust",
@@ -13,5 +13,10 @@
     "substring"
   ],
   "author": "Sakthipriyan Vairamani (thefourtheye)",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "dustjs-helpers": "^1.7.4",
+    "dustjs-linkedin": "^2.7.5",
+    "mocha": "^5.1.1"
+  }
 }
