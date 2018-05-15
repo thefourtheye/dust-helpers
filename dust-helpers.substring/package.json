@@ -4,19 +4,16 @@
   "description": "A dustjs helper to get the substring of a string",
   "main": "index.js",
   "scripts": {
+    "pretty": "prettier --write *.js *.json test/**/*.js",
     "test": "mocha"
   },
-  "keywords": [
-    "dust",
-    "dustjs",
-    "helper",
-    "substring"
-  ],
+  "keywords": ["dust", "dustjs", "helper", "substring"],
   "author": "Sakthipriyan Vairamani (thefourtheye)",
   "license": "MIT",
   "devDependencies": {
     "dustjs-helpers": "^1.7.4",
     "dustjs-linkedin": "^2.7.5",
-    "mocha": "^5.1.1"
+    "mocha": "^5.1.1",
+    "prettier": "1.12.1"
   }
 }
