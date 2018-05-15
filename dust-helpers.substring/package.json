@@ -6,7 +6,7 @@
   "scripts": {
     "pretty": "prettier --write *.js *.json test/**/*.js",
     "lint": "npm run pretty && eslint --fix *.js test/**/*.js",
-    "test": "mocha"
+    "test": "npm run lint && mocha"
   },
   "keywords": ["dust", "dustjs", "helper", "substring"],
   "author": "Sakthipriyan Vairamani (thefourtheye)",
