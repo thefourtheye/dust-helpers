@@ -8,7 +8,7 @@
     "lint": "npm run pretty && eslint --fix *.js test/**/*.js",
     "test": "npm run lint && mocha"
   },
-  "keywords": ["dust", "dustjs", "helper", "substring"],
+  "keywords": ["dust", "dustjs", "helper", "dust-helpers-modularized", "substring"],
   "author": "Sakthipriyan Vairamani (thefourtheye)",
   "license": "MIT",
   "devDependencies": {
