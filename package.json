@@ -1,0 +1,24 @@
+{
+  "name": "dust-helpers",
+  "version": "0.0.1",
+  "description": "Bunch of useful dustjs helpers",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thefourtheye/dust-helpers.git"
+  },
+  "keywords": [
+    "dust",
+    "dustjs",
+    "helpers"
+  ],
+  "author": "Sakthipriyan Vairamani (thefourtheye)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thefourtheye/dust-helpers/issues"
+  },
+  "homepage": "https://github.com/thefourtheye/dust-helpers#readme"
+}
