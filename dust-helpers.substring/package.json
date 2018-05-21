@@ -1,6 +1,6 @@
 {
   "name": "dust-helpers.substring",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A dustjs helper to get the substring of a string",
   "main": "index.js",
   "scripts": {
