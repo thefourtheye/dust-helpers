@@ -1,9 +1,10 @@
 'use strict';
 
-require('dustjs-linkedin');
-require('dustjs-helpers');
-var dust = require('../index');
+var dust = require('dustjs-linkedin');
 var assert = require('assert');
+
+require('dustjs-helpers');
+require('../index');
 
 function tester(err, actual, expected, done) {
   if (err) {
